@@ -7,7 +7,7 @@
     <title>Padaria Rosão</title>
     <meta name="description" content="Página Oficial da Padaria Rosão">
     <meta name="keywords" content="pão Lamarosa, padaria rosao, Rosão, padaria Lamarosa, Coruche">
-    <meta name="author" content="padariarosao">
+    <meta name="author" content="zpinto">
 
     <link rel="stylesheet" type="text/css"  href="css/bootstrap.css">
     <link rel="stylesheet" type="text/css" href="css/font-awesome.css">
@@ -44,7 +44,6 @@
                         <li><a href="#tf-portfolio">Produtos</a></li>
                         <li><a href="#tf-about">Sobre</a></li>
                         <li><a href="#tf-why-me">Contactos</a></li>
-                        <li><a href="#tf-contact">Encomendar</a></li>
                       </ul>
                     </div>
                 </div>
@@ -55,7 +54,7 @@
                     <h1>Padaria Rosão</h1>
                     <h3>Pão com tradição...</h3>
                     <br>
-                    <a href="#tf-contact" class="btn btn-primary my-btn">Encomendas</a>
+                    <a href="#tf-contact" class="btn btn-primary my-btn" disabled>Encomendar</a>
                     <a href="#tf-portfolio" class="btn btn-primary my-btn2">Contactos</a>
                 </div>
             </div>
@@ -120,29 +119,29 @@
 
             <div class="row">
                 <div class="col-md-4">
-                    <img src="img/00.jpg" class="img-responsive">
+                  <img src="img/e.jpg" class="img-responsive" style="height: 250px; width: 400px;">
                 </div>
 
                 <div class="col-md-4">
-                    <img src="img/00.jpg" class="img-responsive">
+                    <img src="img/a.jpg" class="img-responsive" style="height: 250px;width: 400px;">
                 </div>
 
                 <div class="col-md-4">
-                    <img src="img/00.jpg" class="img-responsive">
+                    <img src="img/b.jpg" class="img-responsive" style="height: 250px;width: 400px;">
                 </div>
             </div>
 
             <div class="row toppadding">
                 <div class="col-md-4">
-                    <img src="img/00.jpg" class="img-responsive">
+                    <img src="img/f.jpg" class="img-responsive" style="height: 250px;width: 400px;">
                 </div>
 
                 <div class="col-md-4">
-                    <img src="img/00.jpg" class="img-responsive">
+                  <img src="img/00.jpg" class="img-responsive" style="height: 250px;width: 400px;">
                 </div>
 
                 <div class="col-md-4">
-                    <img src="img/00.jpg" class="img-responsive">
+                    <img src="img/d.jpg" class="img-responsive" style="height: 250px;width: 400px;">
                 </div>
             </div>
 
@@ -160,7 +159,7 @@
 
                         <br>
                           <p style="font-size: 20px; text-indent: 22px;"> A <b>Padaria Rosão Lda</b> é uma empresa com mais de cinquenta anos de experiência na área da panificação e mais de vinte anos na área da pastelaria, o que nos torna profissionais conhecedores e experientes,
-                            amplificando só por si a qualidade dos nossos produtos e o nível de exigência dos mesmos como se pode confirmar pela lealdade dos nossos clientes.</p>
+                            amplificando só por si a qualidade dos nossos produtos e o nível de exigência dos mesmos, como se pode confirmar pela lealdade dos nossos clientes.</p>
                           <p style="font-size: 20px; text-indent: 22px;"> A unidade de fabrico situada em S. José da Lamarosa - Coruche, foi construída em 1993, modernizando, atualizando e aumentando as instalações já existentes.</p>
                           <p style="font-size: 20px; text-indent: 22px;"> O sistema HACCP encontra-se implementado desde 31 de Março de 2007, cujo âmbito engloba o fabrico de pão, papossecos, pão com chouriço e "turrecas" e também todos os produtos de pastelaria.</p>
                         <br>
@@ -198,11 +197,11 @@
         </div>
     </div>
 
-    <div id="tf-contact">
+    <div id="tf-contact" style="display:none">
         <div class="container">
             <div class="section-title">
                 <h3>Encomendar</h3>
-                <p><br>Pode efectuar aqui a sua encomenda, preenchendo os campos embaixo.</p>
+                <p><br>Pode efectuar aqui a sua encomenda, preenchendo os campos seguintes.</p>
                 <p> Pode ainda utilizar os contactos alternativos disponíveis na secção <b> Contactos. </b></p>
                 <hr>
             </div>
@@ -212,14 +211,14 @@
             <div class="row">
                 <div class="col-md-6 col-md-offset-3">
                     <form id="gform" method="POST" class="pure-form pure-form-stacked"
-                        action="https://script.google.com/macros/s/AKfycbx6US5_MgBlCX5LZnrWmv3PakLabkGYp_1HnJLqeCCxcUL7SRj6/exec">
+                        action="https://script.google.com/macros/s/AKfycbwp485W5BF3qRuuC-9fdbFQ1w0rFdldvwUBQhAip74fCep8-ZWe/exec">
                         <fieldset class="form-group">
-                            <input id="nome" class="form-control" name="nome" required placeholder="O seu nome" />
+                            <input id="nome" class="form-control" name="nome" required placeholder="Nome" />
                         </fieldset>
 
                         <fieldset class="form-group">
                             <input id="telemovel" type="tel" class="form-control" name="telemovel" value=""
-                                required placeholder="O seu número de telemovel"/>
+                                required placeholder="Telemóvel"/>
                         </fieldset>
 
                         <fieldset class="form-group">
@@ -228,7 +227,7 @@
                         </fieldset>
 
                         <fieldset class="form-group">
-                            <input id="data" type="date" name="data" class="form-control" placeholder="A data para a encomenda" />
+                            <input id="data" type="date" name="data" class="form-control" placeholder="Data" />
                         </fieldset>
 
                         <button class="btn btn-primary my-btn dark">Confirmar</button>
