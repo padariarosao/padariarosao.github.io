@@ -5,7 +5,7 @@ body, html{
 	font-family: 'Raleway', sans-serif;
 	text-rendering: optimizeLegibility !important;
 	-webkit-font-smoothing: antialiased !important;
-	font-size: 62.5%;
+	font-size: 1.1vh;
 }
 
 @media (min-width: 120rem){
@@ -85,7 +85,12 @@ a:focus{
 	height: auto;
 	background-attachment: fixed;
 }
-
+.logo{
+	height: 10rem; 
+	width: 15rem; 
+	left: 5rem; 
+	position: absolute;
+}
 .content{
 	padding: 15% 0 18% 0;
 	height: 90vh;
@@ -131,7 +136,8 @@ a:focus{
 }
 .prod_class_img{
 	height: 25rem;
-	width: 100rem;
+	width: 100%;
+	padding: 2rem;
 }
 
 .prod_class_img2{
