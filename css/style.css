@@ -5,37 +5,36 @@ body, html{
 	font-family: 'Raleway', sans-serif;
 	text-rendering: optimizeLegibility !important;
 	-webkit-font-smoothing: antialiased !important;
-	font-size: 1.1vh;
 }
 
-@media (min-width: 120rem){
+@media (min-width: 1200px){
 	.container {
-	width: 110rem;
+	width: 1100px;
 	}
 }
 
 h1{
 
-	font-size: 6rem;
+	font-size: 60px;
 }
 
 h2{
-	line-height: 2rem;;
+	line-height: 20px;
 	margin:  0;
 }
 h3{
 
-	font-size: 3rem;
+	font-size: 30px;
 }
 
 h4 {
-	margin-bottom: 2rem;
-	font-size: 1.6rem;;
+	margin-bottom: 20px;
+	font-size: 16px;
 	font-weight: 700;
 	color: rgb(47, 147, 123);
 }
 p{
-	font-size: 1.3rem;
+	font-size: 13px;
 }
 
 a { 
@@ -55,14 +54,10 @@ a:focus{
      content: " ";
      clear: both;
      height: 0;
-}
-
+     }
 .clearfix { display: inline-block; }
-
 * html .clearfix { height: 1%; }
-
 .clearfix { display: block; }
-
 
 /* Home Style */
 #tf-home{
@@ -85,15 +80,9 @@ a:focus{
 	height: auto;
 	background-attachment: fixed;
 }
-.logo{
-	height: 10rem; 
-	width: 15rem; 
-	left: 5rem; 
-	position: absolute;
-}
+
 .content{
 	padding: 15% 0 18% 0;
-	height: 90vh;
 	text-align: center;
 }
 /* Navigation */
@@ -123,26 +112,20 @@ a:focus{
 #tf-menu.navbar-default .navbar-nav > li > a {
 	color: #C5C5C5;
 	text-transform: uppercase;
-	font-size: 1.5rem;
+	font-size: 15px;
 	font-weight: 700;
-	letter-spacing: 0.1rem;
+	letter-spacing: 1px;
 }
 .product_class{
 	text-align: center;
-	width: 10rem;
-	height: 10rem;
+	width: 100px;
+	height: 100px;
 	border-radius: 50%;
 	overflow: hidden;
 }
 .prod_class_img{
-	height: 25rem;
-	width: 100%;
-	padding: 2rem;
-}
-
-.prod_class_img2{
-	height: 10rem;
-	width: 10rem;
+	height: 100px;
+	width: 100px;
 }
 
 #tf-menu.navbar-default .navbar-nav > li > a:hover, 
@@ -151,26 +134,31 @@ a:focus{
 	background-color: transparent;
 }
 
+.logo {
+	font-family: 'Playball', cursive;
+}
+
 #tf-service{
 	padding: 7% 0; 
 }
 
 .media-left.media-middle i {
-	padding: 2rem 3rem 2rem 0;
-	font-size: 3rem;
+	padding: 20px 30px 20px 0;
+	font-size: 30px;
 	color: rgb(47, 147, 123);
+
 }
 
 .media-body h4 {
 	text-align: center;
-	margin-bottom: 2rem;
-	font-size: 2rem;
+	margin-bottom: 20px;
+	font-size: 20px;
 	font-weight: 700;
 	color: rgb(47, 147, 123);
 }
 .media-body p {
 	text-align: left;
-	font-size: 1.6rem;
+	font-size: 16px;
 
 }
 
@@ -182,25 +170,25 @@ a:focus{
 
 .section-title hr{
 	border-color: rgb(47, 147, 123);
-	width: 6rem;
+	width: 60px;
 }
 
 .section-title h2{ font-weight: 700;}
 button.btn,
 a.btn {
-	margin: 1.5rem 0.5rem;
+	margin: 15px 5px;
 	transition: all 0.5s;
 }
 button.btn.btn-primary.my-btn,
 a.btn.btn-primary.my-btn {
 	background: #2F937B;
 	border-color: transparent;
-	border-radius: 0;
-	border-width: 0.2rem;
-	padding: 1rem 3rem;
+	border-radius: 0px;
+	border-width: 2px;
+	padding: 10px 30px;
 	text-transform: uppercase;
-	font-size: 1.2rem;
-	letter-spacing: 0.1rem;
+	font-size: 12px;
+	letter-spacing: 1px;
 	font-weight: 600;
 }
 button.btn.btn-primary.my-btn:hover,
@@ -218,12 +206,12 @@ a.btn.btn-primary.my-btn.dark:hover{
 a.btn.btn-primary.my-btn2 {
 	background: rgba(47, 147, 123, 0);
 	border-color: #FFFFFF;
-	border-radius: 0;
-	border-width: 0.2rem;
-	padding: 1rem 3rem;
+	border-radius: 0px;
+	border-width: 2px;
+	padding: 10px 30px;
 	text-transform: uppercase;
-	font-size: 1.2rem;
-	letter-spacing: 0.1rem;
+	font-size: 12px;
+	letter-spacing: 1px;
 	font-weight: 600;
 	color: #FFFFFF;
 }
@@ -235,12 +223,12 @@ a.btn.btn-primary.my-btn2:hover{
 }
 
 ul.cat.list-inline li a {
-	border: 0.1rem solid #2F937B;
-	padding: 0.5rem 1.5rem;
-	font-size: 1.1rem;
+	border: 1px solid #2F937B;
+	padding: 5px 15px;
+	font-size: 11px;
 	text-transform: uppercase;
 	font-weight: 600;
-	letter-spacing: 0.1rem;
+	letter-spacing: 1px;
 	color: #2F937B;
 	transition: all 0.5s;
 }
@@ -250,8 +238,8 @@ ul.cat.list-inline li a:hover{
 	color: #ffffff;
 }
 
-.space{ padding: 2rem}
-.toppadding{ padding-top: 3rem}
+.space{ padding: 20px}
+.toppadding{ padding-top: 30px}
 .nopadding{ padding:  0;}
 
 #tf-about{
@@ -285,13 +273,13 @@ ul.cat.list-inline li a:hover{
 }
 ul.why-me li{
 
-	margin: 1rem 0;
+	margin: 10px 0;
 }
 #letra{
-	font-size: 2rem;
+	font-size: 20px;
 }
 .mini{
-	font-size: 2.5rem;
+	font-size: 25px;
 }
 #tf-contact{
 	background: url(../img/08.jpg);
@@ -306,26 +294,26 @@ ul.why-me li{
 form#gform {
 	padding: 5%;
 	background: #f1f1f1;
-	outline: 0.6rem solid rgba(34, 34, 34, 0.08);
+	outline: 6px solid rgba(34, 34, 34, 0.08);
 }
 
 #tf-contact input.form-control {
-	height: 4rem;
+	height: 40px;
 }
 
 #tf-contact .form-control{
 	display: block;
 	width: 100%;
-	margin-bottom: 2rem;
-	padding: 1.6rem 1.2rem;
-	font-size: 1.4rem;
+	margin-bottom: 20px;
+	padding: 16px 12px;
+	font-size: 14px;
 	line-height: 1.42857143;
 	color: #555;
 	background-color: #FFF;
 	background-image: none;
-	border: 0.1rem solid #FFF;
+	border: 1px solid #FFF;
 	border-radius: 0;
-	border-top: 0.2rem solid transparent;
+	border-top: 2px solid transparent;
 	-webkit-box-shadow: none;
 	box-shadow: none;
 	-webkit-transition: none;
@@ -334,7 +322,7 @@ form#gform {
 }
 #tf-contact .form-control:focus,
 #tf-contact .form-control:hover{
-	border-top: 0.2rem solid #2F937B;
+	border-top: 2px solid #2F937B;
 }
 nav#tf-footer {
 	background: #222222;
