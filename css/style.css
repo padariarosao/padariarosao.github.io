@@ -61,7 +61,7 @@ a:focus{
 /* Home Style */
 #tf-home{
 	background: url(../img/pao/01.jpg);
-	background-size: cover;
+	background-size: 100%;
 	background-position: center;
 	background-attachment: fixed;
 	background-repeat: no-repeat;
