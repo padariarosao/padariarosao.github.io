@@ -5,9 +5,11 @@ body, html{
 	text-rendering: optimizeLegibility !important;
 	-webkit-font-smoothing: antialiased !important;
 	font-size: 80%;
-	-webkit-text-size-adjust: none;
 }
 
+@media only screen and (max-width: 500px) {
+    html { font-size:50%; -webkit-text-size-adjust:none; }  /* should render everything * 0.8 */  
+}
 
 h1{
 
@@ -116,7 +118,7 @@ a:focus{
 #tf-menu.navbar-default .navbar-nav > li > a {
 	color: #C5C5C5;
 	text-transform: uppercase;
-	font-size: 1.5rem;
+	font-size: 1.2rem;
 	font-weight: 700;
 	letter-spacing: 0.1rem;
 }
