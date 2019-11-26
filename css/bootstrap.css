@@ -1161,6 +1161,9 @@ hr {
   overflow: visible;
   clip: auto;
 }
+.mb-2{
+  margin-bottom: 30px;
+}
 h1,
 h2,
 h3,
